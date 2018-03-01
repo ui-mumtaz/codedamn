@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+	<title>Codedamn | Passing Data between two scopes</title>
+	<script type="text/javascript" src="js/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</head>
+<body>
+
+  <input type="text" ng-model="message.property">
+  <p ng-repeat="i in [5]">	
+   <input type="text" ng-model="message.property">
+   You wrote {{message.property}}
+
+  </p>[outer] You wrote {{message.property}}
+</body>
+</html>

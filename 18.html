@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="mainApp">
+<head>
+	<title>Codedamn | Creating advanced search box</title>
+	<script type="text/javascript" src="js/angular/angular.min.js"></script>
+	<script type="text/javascript" src="js/angular/angular-route.min.js"></script>
+	<script type="text/javascript" src="js/controller.js"></script>
+</head>
+<body>
+
+ <div ng-controller="people">
+ 	<ul>
+ 		<h2>Random Names and Ages</h2>
+ 		<li ng-repeat="person in persons | filter: globalSearch" >
+ 			{{person.Name + ' : ' + person.Age+' : '+ person.Color}}
+ 		</li>
+ 	</ul>
+ </div>
+ <div id="searchBoxes">
+	Global:<input type="text" ng-model="globalSearch.$"><br>
+	Name:<input type="text" ng-model="globalSearch.Name"><br>
+	Age:<input type="text" ng-model="globalSearch.Age"><br>
+	Color: <input type="text" ng-model="globalSearch.Color"><br>
+</div>
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html ng-app="myLanguageApp">
+<head>
+	<title>Codedamn | Angular Js Hands On</title>
+	<script type="text/javascript" src="js/angular/angular.min.js"></script>
+</head>
+<body>
+ 
+
+	<div><br><b>ng-repeat</b></div><br>
+	<div
+	ng-init="myFavouriteLanguage=[
+	{name:'PHP',extension:'.php'},
+	{name:'javascript',extension:'.js'},
+	{name:'C#',extension:'.cs'}]">
+	<span ng-repeat="lang in myFavouriteLanguage">
+		Name: {{lang.name}} - Extension: {{lang.extension}}<br>
+	</span>
+
+	</div>
+
+	 
+</body>
+</html>

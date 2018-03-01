@@ -1,0 +1,15 @@
+{
+	"records":[
+		{"Name":"Charles","Age":"20","Color":"Red"},
+		{"Name":"Wahome","Age":"21","Color":"Orange"},
+		{"Name":"Joyce","Age":"22","Color":"Yellow"},
+		{"Name":"Wambui","Age":"23","Color":"Green"},
+		{"Name":"Elizabeth","Age":"23","Color":"Blue"},
+		{"Name":"Nganga","Age":"24","Color":"Indigo"},
+		{"Name":"Sarah ","Age":"23","Color":"Violet"},
+		{"Name":"Awuor","Age":"24","Color":"Black"},
+		{"Name":"pasha","Age":"23","Color":"White"},
+		{"Name":"mzazi","Age":"24","Color":"Apricot"},
+		{"Name":"The Wahome","Age":"25","Color":"Blue Green"}
+	]
+}
